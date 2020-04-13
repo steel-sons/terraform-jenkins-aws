@@ -1,7 +1,7 @@
 #!/bin/bash
 # Here we updating YUM on instance AWS node
 # Installing Java, Git, Docker and Jenkins
-# 03022020 is
+# 13042020 is
 sudo yum -y update
 
 echo "Install Java JDK 8"
@@ -20,7 +20,7 @@ sudo chkconfig docker on
 ## Terraform installation ##
 ############################
 ## Get terraform package preferably => ver 0.12
-wget -O https://releases.hashicorp.com/terraform/0.12.21/terraform_0.12.21_linux_amd64.zip
+wget -O https://releases.hashicorp.com/terraform/0.12.24/terraform_0.12.24_linux_amd64.zip
 sleep 30
 
 ## Unzip the package
